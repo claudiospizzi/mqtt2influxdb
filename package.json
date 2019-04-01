@@ -1,0 +1,28 @@
+{
+  "name": "mqtt2influxdb",
+  "version": "1.0.0",
+  "description": "Node.js based interface between MQTT and InfluxDB for a smart home",
+  "keywords": [
+    "smarthome",
+    "mqtt",
+    "influxdb"
+  ],
+  "main": "index.js",
+  "bin": {
+    "mqtt2influxdb": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiospizzi/mqtt2influxdb.git"
+  },
+  "author": "Claudio Spizzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudiospizzi/mqtt2influxdb/issues"
+  },
+  "homepage": "https://github.com/claudiospizzi/mqtt2influxdb#readme",
+  "dependencies": {
+    "mqtt": "^2.18.8",
+    "yalm": "^4.1.0"
+  }
+}
