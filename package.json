@@ -1,6 +1,6 @@
 {
   "name": "mqtt2influxdb",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Node.js based interface between MQTT and InfluxDB for a smart home",
   "keywords": [
     "smarthome",
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/claudiospizzi/mqtt2influxdb#readme",
   "dependencies": {
+    "influx": "^5.0.7",
     "mqtt": "^2.18.8",
     "yalm": "^4.1.0"
   }
